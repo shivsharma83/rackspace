@@ -3,7 +3,7 @@ class wordpress {
   require mysql
   require php5
   require php5-mysql
-  require accounts
+  require memcached
 
 
   exec {'wordpress':
