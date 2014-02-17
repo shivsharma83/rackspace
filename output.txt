@@ -1,0 +1,248 @@
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/wordpress/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported wordpress from wordpress into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/apache/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported apache from apache into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/apache/manifests/package.pp' in environment production
+[0;36mDebug[0m: Automatically imported apache::package from apache/package into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/apache/manifests/config.pp' in environment production
+[0;36mDebug[0m: Automatically imported apache::config from apache/config into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/apache/manifests/service.pp' in environment production
+[0;36mDebug[0m: Automatically imported apache::service from apache/service into production
+[0;36mDebug[0m: Failed to load library 'selinux' for feature 'selinux'
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/apache/manifests/mod_php5.pp' in environment production
+[0;36mDebug[0m: Automatically imported apache::mod_php5 from apache/mod_php5 into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/php5/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported php5 from php5 into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/mysql/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported mysql from mysql into production
+[0;36mDebug[0m: hiera(): Hiera YAML backend starting
+[0;36mDebug[0m: hiera(): Looking up mysql::user in YAML backend
+[0;36mDebug[0m: hiera(): Looking for data source common
+[0;36mDebug[0m: hiera(): Cannot find datafile /var/lib/hiera/common.yaml, skipping
+[0;36mDebug[0m: hiera(): Looking up mysql::password in YAML backend
+[0;36mDebug[0m: hiera(): Looking for data source common
+[0;36mDebug[0m: hiera(): Cannot find datafile /var/lib/hiera/common.yaml, skipping
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/mysql/manifests/package.pp' in environment production
+[0;36mDebug[0m: Automatically imported mysql::package from mysql/package into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/mysql/manifests/config.pp' in environment production
+[0;36mDebug[0m: Automatically imported mysql::config from mysql/config into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/mysql/manifests/service.pp' in environment production
+[0;36mDebug[0m: Automatically imported mysql::service from mysql/service into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/mysql/manifests/db.pp' in environment production
+[0;36mDebug[0m: Automatically imported mysql::db from mysql/db into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/php5-mysql/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported php5-mysql from php5-mysql into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/accounts/manifests/init.pp' in environment production
+[0;36mDebug[0m: Automatically imported accounts from accounts into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/accounts/manifests/virtual/system.pp' in environment production
+[0;36mDebug[0m: Automatically imported accounts::virtual::system from accounts/virtual/system into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/accounts/manifests/virtgroup.pp' in environment production
+[0;36mDebug[0m: Automatically imported accounts::virtgroup from accounts/virtgroup into production
+[0;36mDebug[0m: importing '/tmp/vagrant-puppet-1/modules-0/accounts/manifests/virtuser.pp' in environment production
+[0;36mDebug[0m: Automatically imported accounts::virtuser from accounts/virtuser into production
+[0;36mDebug[0m: Puppet::Type::Package::ProviderHpux: file /usr/sbin/swinstall does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderZypper: file /usr/bin/zypper does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderAix: file /usr/bin/lslpp does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPorts: file /usr/local/sbin/portversion does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderFink: file /sw/bin/fink does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderUp2date: file /usr/sbin/up2date-nox does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderOpenbsd: file pkg_info does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderUrpmi: file urpmi does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPkg: file /usr/bin/pkg does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPacman: file /usr/bin/pacman does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderRpm: file rpm does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderNim: file /usr/sbin/nimclient does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderFreebsd: file /usr/sbin/pkg_info does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderYum: file rpm does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderAptrpm: file rpm does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderSun: file /usr/bin/pkginfo does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPkgin: file pkgin does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPortage: file /usr/bin/eix does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderRug: file /usr/bin/rug does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderSunfreeware: file pkg-get does not exist
+[0;36mDebug[0m: Puppet::Type::Package::ProviderPortupgrade: file /usr/local/sbin/portinstall does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderDaemontools: file /usr/bin/svc does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderRedhat: file /sbin/chkconfig does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderOpenrc: file /sbin/rc-service does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderLaunchd: file /bin/launchctl does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderGentoo: file /sbin/rc-update does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderSystemd: file /bin/systemctl does not exist
+[0;36mDebug[0m: Puppet::Type::Service::ProviderRunit: file /usr/bin/sv does not exist
+[0;36mDebug[0m: Creating default schedules
+[0;36mDebug[0m: Using settings: adding file resource 'lastrunreport': 'File[/var/lib/puppet/state/last_run_report.yaml]{:backup=>false, :ensure=>:file, :loglevel=>:debug, :links=>:follow, :mode=>"640", :path=>"/var/lib/puppet/state/last_run_report.yaml"}'
+[0;36mDebug[0m: Failed to load library 'shadow' for feature 'libshadow'
+[0;36mDebug[0m: Puppet::Type::User::ProviderPw: file pw does not exist
+[0;36mDebug[0m: Puppet::Type::User::ProviderUser_role_add: file roleadd does not exist
+[0;36mDebug[0m: Puppet::Type::User::ProviderDirectoryservice: file /usr/bin/dscl does not exist
+[0;36mDebug[0m: Puppet::Type::User::ProviderLdap: true value when expecting false
+[0;36mDebug[0m: Using settings: adding file resource 'publickeydir': 'File[/etc/puppet/ssl/public_keys]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :path=>"/etc/puppet/ssl/public_keys"}'
+[0;36mDebug[0m: Using settings: adding file resource 'libdir': 'File[/var/lib/puppet/lib]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :path=>"/var/lib/puppet/lib"}'
+[0;36mDebug[0m: Using settings: adding file resource 'privatedir': 'File[/etc/puppet/ssl/private]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :mode=>"750", :path=>"/etc/puppet/ssl/private"}'
+[0;36mDebug[0m: Using settings: adding file resource 'client_datadir': 'File[/var/lib/puppet/client_data]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :mode=>"750", :path=>"/var/lib/puppet/client_data"}'
+[0;36mDebug[0m: Using settings: adding file resource 'confdir': 'File[/etc/puppet]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :path=>"/etc/puppet"}'
+[0;36mDebug[0m: Using settings: adding file resource 'certdir': 'File[/etc/puppet/ssl/certs]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :path=>"/etc/puppet/ssl/certs"}'
+[0;36mDebug[0m: Using settings: adding file resource 'requestdir': 'File[/etc/puppet/ssl/certificate_requests]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :path=>"/etc/puppet/ssl/certificate_requests"}'
+[0;36mDebug[0m: Using settings: adding file resource 'statefile': 'File[/var/lib/puppet/state/state.yaml]{:backup=>false, :ensure=>:file, :loglevel=>:debug, :links=>:follow, :mode=>"660", :path=>"/var/lib/puppet/state/state.yaml"}'
+[0;36mDebug[0m: Using settings: adding file resource 'clientbucketdir': 'File[/var/lib/puppet/clientbucket]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :mode=>"750", :path=>"/var/lib/puppet/clientbucket"}'
+[0;36mDebug[0m: Using settings: adding file resource 'statedir': 'File[/var/lib/puppet/state]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :mode=>"1755", :path=>"/var/lib/puppet/state"}'
+[0;36mDebug[0m: Using settings: adding file resource 'lastrunfile': 'File[/var/lib/puppet/state/last_run_summary.yaml]{:backup=>false, :ensure=>:file, :loglevel=>:debug, :links=>:follow, :mode=>"644", :path=>"/var/lib/puppet/state/last_run_summary.yaml"}'
+[0;36mDebug[0m: Using settings: adding file resource 'vardir': 'File[/var/lib/puppet]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :path=>"/var/lib/puppet"}'
+[0;36mDebug[0m: Using settings: adding file resource 'ssldir': 'File[/etc/puppet/ssl]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :mode=>"771", :path=>"/etc/puppet/ssl"}'
+[0;36mDebug[0m: Using settings: adding file resource 'graphdir': 'File[/var/lib/puppet/state/graphs]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :path=>"/var/lib/puppet/state/graphs"}'
+[0;36mDebug[0m: Using settings: adding file resource 'rundir': 'File[/var/lib/puppet/run]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :mode=>"1777", :path=>"/var/lib/puppet/run"}'
+[0;36mDebug[0m: Using settings: adding file resource 'privatekeydir': 'File[/etc/puppet/ssl/private_keys]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :owner=>"root", :mode=>"750", :path=>"/etc/puppet/ssl/private_keys"}'
+[0;36mDebug[0m: Using settings: adding file resource 'clientyamldir': 'File[/var/lib/puppet/client_yaml]{:backup=>false, :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :mode=>"750", :path=>"/var/lib/puppet/client_yaml"}'
+[0;36mDebug[0m: Using settings: adding file resource 'logdir': 'File[/var/lib/puppet/log]{:backup=>false, :ensure=>:directory, :group=>"puppet", :loglevel=>:debug, :links=>:follow, :owner=>"root", :mode=>"750", :path=>"/var/lib/puppet/log"}'
+[0;36mDebug[0m: Failed to load library 'ldap' for feature 'ldap'
+[0;36mDebug[0m: /File[/var/lib/puppet/clientbucket]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/var/lib/puppet/client_data]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/var/lib/puppet/state/last_run_report.yaml]: Autorequiring File[/var/lib/puppet/state]
+[0;36mDebug[0m: /File[/etc/puppet/ssl/public_keys]: Autorequiring File[/etc/puppet/ssl]
+[0;36mDebug[0m: /File[/etc/puppet/ssl/private]: Autorequiring File[/etc/puppet/ssl]
+[0;36mDebug[0m: /File[/var/lib/puppet/state/last_run_summary.yaml]: Autorequiring File[/var/lib/puppet/state]
+[0;36mDebug[0m: /File[/var/lib/puppet/state/graphs]: Autorequiring File[/var/lib/puppet/state]
+[0;36mDebug[0m: /File[/var/lib/puppet/run]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/etc/puppet/ssl/private_keys]: Autorequiring File[/etc/puppet/ssl]
+[0;36mDebug[0m: /File[/etc/puppet/ssl/certs]: Autorequiring File[/etc/puppet/ssl]
+[0;36mDebug[0m: /File[/var/lib/puppet/client_yaml]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/etc/puppet/ssl]: Autorequiring File[/etc/puppet]
+[0;36mDebug[0m: /File[/var/lib/puppet/lib]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/var/lib/puppet/log]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: /File[/etc/puppet/ssl/certificate_requests]: Autorequiring File[/etc/puppet/ssl]
+[0;36mDebug[0m: /File[/var/lib/puppet/state/state.yaml]: Autorequiring File[/var/lib/puppet/state]
+[0;36mDebug[0m: /File[/var/lib/puppet/state]: Autorequiring File[/var/lib/puppet]
+[0;36mDebug[0m: Finishing transaction 69825960945000
+[0;36mDebug[0m: Loaded state in 0.00 seconds
+[0;36mDebug[0m: Loaded state in 0.00 seconds
+[0;32mInfo[0m: Applying configuration version '1392659036'
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk]/require: requires File[/var/www/vhosts]
+[0;36mDebug[0m: /Stage[main]/Apache::Service/Service[apache2]/require: requires Class[Apache::Config]
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/File[/etc/mysql/my.cnf]/require: requires File[/etc/mysql]
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html]/require: requires File[/var/www/vhosts/lin-test.rackstage.co.uk]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]/notify: subscribes to Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Wordpress/require: requires Class[Apache]
+[0;36mDebug[0m: /Stage[main]/Wordpress/require: requires Class[Mysql]
+[0;36mDebug[0m: /Stage[main]/Wordpress/require: requires Class[Php5]
+[0;36mDebug[0m: /Stage[main]/Wordpress/require: requires Class[Php5-mysql]
+[0;36mDebug[0m: /Stage[main]/Wordpress/require: requires Class[Accounts]
+[0;36mDebug[0m: /Stage[main]/Mysql::Db/Exec[create-lintest_wpdb-db]/notify: subscribes to Service[mysql]
+[0;36mDebug[0m: /Stage[main]/Mysql::Package/Package[mysql-server]/notify: subscribes to Service[mysql]
+[0;36mDebug[0m: /Stage[main]/Mysql::Db/require: requires Class[Mysql::Config]
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/require: requires Class[Mysql::Package]
+[0;36mDebug[0m: /Stage[main]/Apache::Mod_php5/Exec[enable_mod_php5]/notify: subscribes to Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/File[/etc/mysql/conf.d/mysqld_safe_syslog.cnf]/require: requires File[/etc/mysql/conf.d]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/security.conf]/notify: subscribes to Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/charset.conf]/notify: subscribes to Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/require: requires Class[Apache::Package]
+[0;36mDebug[0m: /Stage[main]/Mysql::Service/Service[mysql]/require: requires Package[mysql-server]
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts]/require: requires Class[Apache::Package]
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]/require: requires Exec[wordpress]
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]/require: requires File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html]
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]/notify: subscribes to Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Apache::Mod_php5/Package[libapache2-mod-php5]/require: requires Class[Php5]
+[0;36mDebug[0m: /Stage[main]/Apache::Mod_php5/Package[libapache2-mod-php5]/require: requires Class[Apache::Package]
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/File[/etc/mysql/conf.d]: Autorequiring File[/etc/mysql]
+[0;36mDebug[0m: /Stage[main]/Wordpress/Exec[wordpress]: Autorequiring File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html]
+[0;36mDebug[0m: /Schedule[daily]: Skipping device resources because running on a host
+[0;36mDebug[0m: /Schedule[monthly]: Skipping device resources because running on a host
+[0;36mDebug[0m: /Schedule[hourly]: Skipping device resources because running on a host
+[0;36mDebug[0m: Prefetching apt resources for package
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat '${Status} ${Package} ${Version}\n''
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat '${Status} ${Package} ${Version}\n''
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat ${Status} ${Package} ${Version}\n php5-mysql'
+[0;36mDebug[0m: Executing '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install php5-mysql'
+/Stage[main]/Php5-mysql/Package[php5-mysql]/ensure: ensure changed 'purged' to 'present'
+[0;36mDebug[0m: /Stage[main]/Php5-mysql/Package[php5-mysql]: The container Class[Php5-mysql] will propagate my refresh event
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat ${Status} ${Package} ${Version}\n mysql-client'
+[0;36mDebug[0m: Executing '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install mysql-client'
+/Stage[main]/Mysql::Package/Package[mysql-client]/ensure: ensure changed 'purged' to 'present'
+[0;36mDebug[0m: /Stage[main]/Mysql::Package/Package[mysql-client]: The container Class[Mysql::Package] will propagate my refresh event
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat ${Status} ${Package} ${Version}\n mysql-server'
+[0;36mDebug[0m: Executing '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install mysql-server'
+/Stage[main]/Mysql::Package/Package[mysql-server]/ensure: ensure changed 'purged' to 'present'
+[0;36mDebug[0m: /Stage[main]/Mysql::Package/Package[mysql-server]: The container Class[Mysql::Package] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Mysql::Package/Package[mysql-server]: Scheduling refresh of Service[mysql]
+[0;36mDebug[0m: Class[Mysql::Package]: The container Stage[main] will propagate my refresh event
+[0;36mDebug[0m: /Schedule[never]: Skipping device resources because running on a host
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat ${Status} ${Package} ${Version}\n php5'
+[0;36mDebug[0m: Executing '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install php5'
+/Stage[main]/Php5/Package[php5]/ensure: ensure changed 'purged' to 'present'
+[0;36mDebug[0m: /Stage[main]/Php5/Package[php5]: The container Class[Php5] will propagate my refresh event
+[0;36mDebug[0m: Class[Php5]: The container Stage[main] will propagate my refresh event
+[0;36mDebug[0m: Class[Php5-mysql]: The container Stage[main] will propagate my refresh event
+[0;36mDebug[0m: Exec[enable_mod_php5](provider=posix): Executing 'a2enmod php5'
+[0;36mDebug[0m: Executing 'a2enmod php5'
+/Stage[main]/Apache::Mod_php5/Exec[enable_mod_php5]/returns: ERROR: Module php5 does not exist!
+/Stage[main]/Apache::Config/File[/etc/apache2/conf.d/security.conf]/ensure: defined content as '{md5}efbf8ae53ef8590d44b6ea7bdd7ec9f8'
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/security.conf]: The container Class[Apache::Config] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/security.conf]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: Executing '/usr/bin/dpkg-query -W --showformat ${Status} ${Package} ${Version}\n libapache2-mod-php5'
+[0;36mDebug[0m: Executing '/usr/bin/apt-get -q -y -o DPkg::Options::=--force-confold install libapache2-mod-php5'
+/Stage[main]/Apache::Mod_php5/Package[libapache2-mod-php5]/ensure: ensure changed 'purged' to 'present'
+[0;36mDebug[0m: /Stage[main]/Apache::Mod_php5/Package[libapache2-mod-php5]: The container Class[Apache::Mod_php5] will propagate my refresh event
+[0;36mDebug[0m: Class[Apache::Mod_php5]: The container Stage[main] will propagate my refresh event
+/Stage[main]/Wordpress/File[/var/www/vhosts]/ensure: created
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts]: The container Class[Wordpress] will propagate my refresh event
+/Stage[main]/Apache::Config/File[/etc/apache2/conf.d/charset.conf]/ensure: defined content as '{md5}1a48d291fbe7a77acd13ae020a9b1388'
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/charset.conf]: The container Class[Apache::Config] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/conf.d/charset.conf]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: Finishing transaction 69825963024960
+[0;32mInfo[0m: FileBucket adding {md5}38b31d20326f3640a8dfbe1ff5d1c4ad
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: Filebucketed /etc/apache2/ports.conf to puppet with sum 38b31d20326f3640a8dfbe1ff5d1c4ad
+/Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]/content: content changed '{md5}38b31d20326f3640a8dfbe1ff5d1c4ad' to '{md5}431faabd7c08f46463fe41bea98a5d6b'
+/Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]/group: group changed 'root' to 'vagrant'
+/Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]/mode: mode changed '0644' to '0664'
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: The container Class[Apache::Config] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: The container Class[Apache::Config] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: The container Class[Apache::Config] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Apache::Config/File[/etc/apache2/ports.conf]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: Class[Apache::Config]: The container Stage[main] will propagate my refresh event
+[0;36mDebug[0m: /Schedule[weekly]: Skipping device resources because running on a host
+/Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk]/ensure: created
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk]: The container Class[Wordpress] will propagate my refresh event
+/Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html]/ensure: created
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html]: The container Class[Wordpress] will propagate my refresh event
+[0;36mDebug[0m: Exec[wordpress](provider=posix): Executing 'wget https://wordpress.org/latest.tar.gz ; tar -xvzf latest.tar.gz -C /var/www/vhosts/lin-test.rackstage.co.uk/public_html/ --strip-components 1'
+[0;36mDebug[0m: Executing 'wget https://wordpress.org/latest.tar.gz ; tar -xvzf latest.tar.gz -C /var/www/vhosts/lin-test.rackstage.co.uk/public_html/ --strip-components 1'
+/Stage[main]/Wordpress/Exec[wordpress]/returns: executed successfully
+[0;36mDebug[0m: /Stage[main]/Wordpress/Exec[wordpress]: The container Class[Wordpress] will propagate my refresh event
+/Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]/ensure: defined content as '{md5}fdd6ad82dad38c91e172356ce8bbba7b'
+[0;36mDebug[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]: The container Class[Wordpress] will propagate my refresh event
+[0;32mInfo[0m: /Stage[main]/Wordpress/File[/var/www/vhosts/lin-test.rackstage.co.uk/public_html/wp-config.php]: Scheduling refresh of Class[Apache::Service]
+[0;36mDebug[0m: Class[Wordpress]: The container Stage[main] will propagate my refresh event
+[0;32mInfo[0m: Class[Apache::Service]: Scheduling refresh of Service[apache2]
+/Stage[main]/Apache::Service/Service[apache2]: Dependency Exec[enable_mod_php5] has failures: true
+[0;36mDebug[0m: Service[apache2](provider=upstart): Could not find apache2.conf in /etc/init
+[0;36mDebug[0m: Service[apache2](provider=upstart): Could not find apache2.conf in /etc/init.d
+[0;36mDebug[0m: Service[apache2](provider=upstart): Could not find apache2 in /etc/init
+[0;36mDebug[0m: Executing '/etc/init.d/apache2 status'
+[0;36mDebug[0m: Executing '/etc/init.d/apache2 stop'
+[0;36mDebug[0m: Executing '/etc/init.d/apache2 start'
+[0;36mDebug[0m: /Schedule[puppet]: Skipping device resources because running on a host
+[0;36mDebug[0m: Exec[set-mysql-password](provider=posix): Executing check 'mysqladmin -uroot -pPassw0rd! status'
+[0;36mDebug[0m: Executing 'mysqladmin -uroot -pPassw0rd! status'
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/Exec[set-mysql-password]/unless: mysqladmin: connect to server at 'localhost' failed
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/Exec[set-mysql-password]/unless: error: 'Access denied for user 'root'@'localhost' (using password: YES)'
+[0;36mDebug[0m: Exec[set-mysql-password](provider=posix): Executing 'mysqladmin -uroot password Passw0rd!'
+[0;36mDebug[0m: Executing 'mysqladmin -uroot password Passw0rd!'
+/Stage[main]/Mysql::Config/Exec[set-mysql-password]/returns: executed successfully
+[0;36mDebug[0m: /Stage[main]/Mysql::Config/Exec[set-mysql-password]: The container Class[Mysql::Config] will propagate my refresh event
+[0;36mDebug[0m: Class[Mysql::Config]: The container Stage[main] will propagate my refresh event
+/Stage[main]/Mysql::Db/Exec[create-lintest_wpdb-db]: Dependency File[/etc/mysql/my.cnf] has failures: true
+/Stage[main]/Mysql::Service/Service[mysql]: Dependency File[/etc/mysql/my.cnf] has failures: true
+[0;36mDebug[0m: Executing '/sbin/status mysql'
+[0;36mDebug[0m: Executing '/sbin/stop mysql'
+[0;36mDebug[0m: Executing '/sbin/start mysql'
+/Stage[main]/Mysql::Service/Service[mysql]: Triggered 'refresh' from 1 events
+[0;36mDebug[0m: /Stage[main]/Mysql::Service/Service[mysql]: The container Class[Mysql::Service] will propagate my refresh event
+[0;36mDebug[0m: Class[Mysql::Service]: The container Stage[main] will propagate my refresh event
+[0;36mDebug[0m: Finishing transaction 69825960373240
+[0;36mDebug[0m: Storing state
+[0;36mDebug[0m: Stored state in 0.02 seconds
+Finished catalog run in 154.55 seconds
+[0;36mDebug[0m: Using settings: adding file resource 'rrddir': 'File[/var/lib/puppet/rrd]{:backup=>false, :ensure=>:directory, :group=>"puppet", :loglevel=>:debug, :links=>:follow, :owner=>"root", :mode=>"750", :path=>"/var/lib/puppet/rrd"}'
+[0;36mDebug[0m: Finishing transaction 69825960599660
+[0;36mDebug[0m: Received report to process from vagrant-ubuntu.vagrantup.com
+[0;36mDebug[0m: Processing report from vagrant-ubuntu.vagrantup.com with processor Puppet::Reports::Store
