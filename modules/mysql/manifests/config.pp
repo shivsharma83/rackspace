@@ -1,6 +1,5 @@
 class mysql::config ($user, $password) {
     require ::mysql::package
-
     file {
         "/etc/mysql":
             ensure  => directory;
@@ -19,7 +18,6 @@ class mysql::config ($user, $password) {
         unless => "mysqladmin -uroot -p$password status",
         path => ["/bin", "/usr/bin"],
         command => "mysqladmin -uroot password $password",
-        require => Service["mysql"],
      }
 
 }
